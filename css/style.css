@@ -1,0 +1,94 @@
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color:#efac04;
+    font-weight: 600;
+}
+
+header {
+    background-color:#efad04a5;
+    text-align: center;
+    /* padding: 20px; */
+    color: #333;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: left;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight:bold;
+}
+h1{
+   padding: 60px;
+   font-size: 8rem;
+}
+h2 {
+    margin: 20px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+p{
+    margin: 10px;
+}
+#container{
+    max-width: 1100px;
+    
+	margin: 0 auto;
+	/* padding: 0 30px; */
+    background-image: "";
+}
+.bk_0 {
+	background: url('/img/bachground.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+.bk_1 {
+	background: url('/img/bgg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bk_2 {
+	background-color:#89313e9c;
+    border-radius: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+
+}
+header img{
+    width: 100%;
+}
